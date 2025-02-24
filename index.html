@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+  <link href="css/theme/theme.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
+  <script type="importmap">
+    {
+      "imports": {
+        "@material/web/": "https://esm.run/@material/web/"
+      }
+    }
+  </script>
+  <script type="module">
+    import '@material/web/all.js';
+    import {styles as typescaleStyles} from '@material/web/typography/md-typescale-styles.js';
+    document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+  </script>
+  <title>Rve</title>
+</head>
+<body>
+  <section>
+    <div class="wave">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="material-theme">
+      <img src="img/imsa.png" alt="Profile Picture" />
+      <h1 class="username">Rve</h1>
+      <p class="paragraph1">Hi, i'm newbie developer</p>
+      <p class="paragraph2">you can see all my projects on my <a href="https://github.com/Rve27" target="_blank">GitHub</a>.</p>
+      <p class="paragraph3">If you want to contact me,</p>
+      <p class="paragraph4">you can contact me via <a href="https://t.me/rve270" target="_blank">Telegram</a>.</p>
+    </div>
+  </section>
+</body>
+</html>

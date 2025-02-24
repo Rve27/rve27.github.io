@@ -1,0 +1,135 @@
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wave {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--md-sys-color-primary-container);
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+  filter: blur(2px);
+}
+
+.wave span {
+  content: "";
+  position: absolute;
+  width: 325vh;
+  height: 325vh;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  background: var(--md-sys-color-background);
+}
+
+.wave span:nth-child(1) {
+  border-radius: 45%;
+  background: rgba(20, 20, 20, 1);
+  animation: wave 10s linear infinite;
+}
+
+.wave span:nth-child(2) {
+  border-radius: 40%;
+  background: rgba(20, 20, 20, 0.5);
+  animation: wave 20s linear infinite;
+}
+
+.wave span:nth-child(3) {
+  border-radius: 42.5%;
+  background: rgba(20, 20, 20, 0.5);
+  animation: wave 30s linear infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+
+body {
+  font-family: "Google Sans", Sans-Serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--md-sys-color-background);
+}
+
+.material-theme {
+  z-index: 1;
+}
+
+img {
+  width: 20%;
+  border-radius: 200px;
+  box-shadow: 5px 5px 15px var(--md-sys-color-on-background);
+}
+
+h1 {
+  letter-spacing: 1px;
+  font-size: 4.5rem;
+}
+
+p {
+  letter-spacing: 1px;
+  font-size: 2.5rem;
+}
+
+.username {
+  margin: 15px 0;
+  color: var(--md-sys-color-on-background);
+}
+
+.paragraph1 {
+  margin: 0;
+  color: var(--md-sys-color-on-background);
+}
+
+.paragraph2,
+.paragraph4 {
+  margin-top: 5px;
+  color: var(--md-sys-color-on-background);
+}
+
+.paragraph3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: var(--md-sys-color-on-background);
+}
+
+a {
+  text-decoration: none;
+  color: var(--md-sys-color-primary);
+}
+
+a:hover {
+  color: var(--md-sys-color-on-primary-container);
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 40%;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  p {
+    font-size: 1.0rem;
+  }
+}
