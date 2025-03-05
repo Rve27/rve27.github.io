@@ -110,12 +110,12 @@ a:hover {
   }
 
   p, footer p, #rvkernel-mi8937-changelog li {
-    font-size: 1.0rem;
+    font-size: 0.8rem;
   }
 
   .rvkernel-mi8937-changelog {
     font-size: 1.5rem;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
   }
 
   #rvkernel-mi8937-changelog {
