@@ -1,27 +1,45 @@
 body {
-  font-family: "Google Sans", Sans-Serif;
-  text-align: center;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   min-height: 100vh;
+  font-family: "Google Sans", Sans-Serif;
   background: var(--md-sys-color-background);
 }
 
+main {
+  flex: 1;
+  align-content: center;
+}
+
+#home {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0 5px 0;
+  color: var(--md-sys-color-on-primary-container);
+  background-color: var(--md-sys-color-primary-container);
+}
+
+footer p {
+  font-size: 1.5rem;
+}
+
 img {
-  width: 20%;
+  width: 15%;
   border-radius: 200px;
   box-shadow: 5px 5px 15px var(--md-sys-color-on-background);
 }
 
 h1 {
   letter-spacing: 1px;
-  font-size: 4.5rem;
+  font-size: 4.0rem;
 }
 
 p {
   letter-spacing: 1px;
-  font-size: 2.5rem;
+  font-size: 2.0rem;
 }
 
 .username {
@@ -29,18 +47,18 @@ p {
   color: var(--md-sys-color-on-background);
 }
 
-.paragraph1 {
+.p1 {
   margin: 0;
   color: var(--md-sys-color-on-background);
 }
 
-.paragraph2,
-.paragraph4 {
+.p2,
+.p4 {
   margin-top: 5px;
   color: var(--md-sys-color-on-background);
 }
 
-.paragraph3 {
+.p3 {
   margin-top: 20px;
   margin-bottom: 0;
   color: var(--md-sys-color-on-background);
@@ -63,8 +81,12 @@ a:hover {
   h1 {
     font-size: 2.5rem;
   }
-  
+
   p {
+    font-size: 1.0rem;
+  }
+
+  footer p {
     font-size: 1.0rem;
   }
 }
