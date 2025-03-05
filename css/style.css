@@ -73,6 +73,33 @@ a:hover {
   color: var(--md-sys-color-on-primary-container);
 }
 
+.rvkernel-mi8937-changelog {
+  text-align: center;
+  padding: 30px 0;
+  color: var(--md-sys-color-on-background);
+}
+
+#rvkernel-mi8937-changelog {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 25px;
+  color: var(--md-sys-color-on-primary-container);
+  background-color: var(--md-sys-color-primary-container);
+  box-shadow: 10px 10px 0px var(--md-sys-color-primary);
+}
+
+#rvkernel-mi8937-changelog ul {
+    list-style-type: disc;
+}
+
+#rvkernel-mi8937-changelog li {
+  font-size: 2.0rem;
+}
+
+#rvkernel-mi8937-changelog h2 {
+  font-size: 3.0rem;
+}
+
 @media (max-width: 768px) {
   img {
     width: 40%;
@@ -82,11 +109,20 @@ a:hover {
     font-size: 2.5rem;
   }
 
-  p {
+  p, footer p, #rvkernel-mi8937-changelog li {
     font-size: 1.0rem;
   }
 
-  footer p {
-    font-size: 1.0rem;
+  .rvkernel-mi8937-changelog {
+    font-size: 1.5rem;
+    padding-bottom: 25px;
+  }
+
+  #rvkernel-mi8937-changelog {
+    box-shadow: 5px 5px 0px var(--md-sys-color-primary);
+  }
+
+  #rvkernel-mi8937-changelog h2 {
+    font-size: 1.5rem;
   }
 }
