@@ -12,3 +12,18 @@ document.addEventListener('DOMContentLoaded', function() {
             changelogElement.innerHTML = '<p>Error fetching the changelog.</p>';
         });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const changelogElement = document.getElementById("rvkernel-mi845-changelog");
+    const url = "https://raw.githubusercontent.com/Rv-Project/RvKernel-Changelogs/refs/heads/main/Mi845.md";
+    fetch(url)
+        .then(response => response.text())
+        .then(data => {
+            const htmlContent = marked.parse(data);
+            changelogElement.innerHTML = htmlContent;
+        })
+        .catch(error => {
+            console.error('Error fetching the changelog:', error);
+            changelogElement.innerHTML = '<p>Error fetching the changelog.</p>';
+        });
+});
