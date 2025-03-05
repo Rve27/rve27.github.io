@@ -124,12 +124,12 @@ a:hover {
   .rvkernel-mi8937-changelog,
   .rvkernel-mi845-changelog {
     font-size: 1.5rem;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   #rvkernel-mi8937-changelog,
   #rvkernel-mi845-changelog {
-    margin: 20px;
+    margin: 30px;
     padding: 20px;
     box-shadow: 5px 5px 0px var(--md-sys-color-primary);
   }
