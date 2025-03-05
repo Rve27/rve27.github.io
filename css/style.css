@@ -74,14 +74,14 @@ a:hover {
 }
 
 .rvkernel-mi8937-changelog {
+  margin-top: 80px;
   text-align: center;
-  padding: 30px 0;
   color: var(--md-sys-color-on-background);
 }
 
 #rvkernel-mi8937-changelog {
-  margin: 20px;
-  padding: 20px;
+  margin: 80px;
+  padding: 40px;
   border-radius: 25px;
   color: var(--md-sys-color-on-primary-container);
   background-color: var(--md-sys-color-primary-container);
@@ -115,10 +115,12 @@ a:hover {
 
   .rvkernel-mi8937-changelog {
     font-size: 1.5rem;
-    padding-bottom: 10px;
+    margin-top: 20px;
   }
 
   #rvkernel-mi8937-changelog {
+    margin: 20px;
+    padding: 30px;
     box-shadow: 5px 5px 0px var(--md-sys-color-primary);
   }
 
