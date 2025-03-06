@@ -74,14 +74,16 @@ a:hover {
 }
 
 .rvkernel-mi8937-changelog,
-.rvkernel-mi845-changelog {
+.rvkernel-mi845-changelog,
+.rvkernel-alioth-changelog {
   margin-top: 80px;
   text-align: center;
   color: var(--md-sys-color-on-background);
 }
 
 #rvkernel-mi8937-changelog,
-#rvkernel-mi845-changelog {
+#rvkernel-mi845-changelog,
+#rvkernel-alioth-changelog {
   margin: 80px;
   padding: 40px;
   border-radius: 25px;
@@ -91,17 +93,20 @@ a:hover {
 }
 
 #rvkernel-mi8937-changelog ul,
-#rvkernel-mi845-changelog ul {
+#rvkernel-mi845-changelog ul,
+#rvkernel-alioth-changelog ul {
     list-style-type: disc;
 }
 
 #rvkernel-mi8937-changelog li,
-#rvkernel-mi845-changelog li {
+#rvkernel-mi845-changelog li,
+#rvkernel-alioth-changelog li {
   font-size: 2.0rem;
 }
 
 #rvkernel-mi8937-changelog h2,
-#rvkernel-mi845-changelog h2 {
+#rvkernel-mi845-changelog h2,
+#rvkernel-alioth-changelog h2 {
   font-size: 3.0rem;
 }
 
@@ -117,25 +122,29 @@ a:hover {
   p,
   footer p,
   #rvkernel-mi8937-changelog li,
-  #rvkernel-mi845-changelog li {
+  #rvkernel-mi845-changelog li,
+  #rvkernel-alioth-changelog li{
     font-size: 0.8rem;
   }
 
   .rvkernel-mi8937-changelog,
-  .rvkernel-mi845-changelog {
+  .rvkernel-mi845-changelog,
+  .rvkernel-alioth-changelog {
     font-size: 1.5rem;
     margin-top: 30px;
   }
 
   #rvkernel-mi8937-changelog,
-  #rvkernel-mi845-changelog {
+  #rvkernel-mi845-changelog,
+  #rvkernel-alioth-changelog {
     margin: 30px;
     padding: 20px;
     box-shadow: 5px 5px 0px var(--md-sys-color-primary);
   }
 
   #rvkernel-mi8937-changelog h2,
-  #rvkernel-mi845-changelog h2 {
+  #rvkernel-mi845-changelog h2,
+  #rvkernel-alioth-changelog h2{
     font-size: 1.5rem;
   }
 }
