@@ -33,12 +33,10 @@ img {
 }
 
 h1 {
-  letter-spacing: 1px;
   font-size: 4.0rem;
 }
 
 p {
-  letter-spacing: 1px;
   font-size: 2.0rem;
 }
 
@@ -119,12 +117,15 @@ a:hover {
     font-size: 2.5rem;
   }
 
-  p,
   footer p,
   #rvkernel-mi8937-changelog li,
   #rvkernel-mi845-changelog li,
   #rvkernel-alioth-changelog li{
     font-size: 0.8rem;
+  }
+
+  #home p {
+    font-size: 1.0rem;
   }
 
   .rvkernel-mi8937-changelog,
