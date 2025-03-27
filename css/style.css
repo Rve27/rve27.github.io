@@ -74,7 +74,8 @@ a:hover {
 .rvkernel-mi8937-changelog,
 .rvkernel-mi845-changelog,
 .rvkernel-alioth-changelog,
-.axion-beryllium-changelog {
+.axion-beryllium-changelog,
+.horizon-beryllium-changelog {
   margin-top: 80px;
   text-align: center;
   color: var(--md-sys-color-on-background);
@@ -83,7 +84,8 @@ a:hover {
 #rvkernel-mi8937-changelog,
 #rvkernel-mi845-changelog,
 #rvkernel-alioth-changelog,
-#axion-beryllium-changelog {
+#axion-beryllium-changelog,
+#horizon-beryllium-changelog {
   margin: 80px;
   padding: 40px;
   border-radius: 25px;
@@ -95,21 +97,24 @@ a:hover {
 #rvkernel-mi8937-changelog ul,
 #rvkernel-mi845-changelog ul,
 #rvkernel-alioth-changelog ul,
-#axion-beryllium-changelog ul {
+#axion-beryllium-changelog ul,
+#horizon-beryllium-changelog ul {
     list-style-type: disc;
 }
 
 #rvkernel-mi8937-changelog li,
 #rvkernel-mi845-changelog li,
 #rvkernel-alioth-changelog li,
-#axion-beryllium-changelog li {
+#axion-beryllium-changelog li,
+#horizon-beryllium-changelog li {
   font-size: 2.0rem;
 }
 
 #rvkernel-mi8937-changelog h2,
 #rvkernel-mi845-changelog h2,
 #rvkernel-alioth-changelog h2,
-#axion-beryllium-changelog h2 {
+#axion-beryllium-changelog h2,
+#horizon-beryllium-changelog h2 {
   font-size: 3.0rem;
 }
 
@@ -126,7 +131,8 @@ a:hover {
   #rvkernel-mi8937-changelog li,
   #rvkernel-mi845-changelog li,
   #rvkernel-alioth-changelog li,
-  #axion-beryllium-changelog li {
+  #axion-beryllium-changelog li,
+  #horizon-beryllium-changelog li {
     font-size: 0.8rem;
   }
 
@@ -137,7 +143,8 @@ a:hover {
   .rvkernel-mi8937-changelog,
   .rvkernel-mi845-changelog,
   .rvkernel-alioth-changelog,
-  .axion-beryllium-changelog {
+  .axion-beryllium-changelog,
+  .horizon-beryllium-changelog {
     font-size: 1.5rem;
     margin-top: 30px;
   }
@@ -145,7 +152,8 @@ a:hover {
   #rvkernel-mi8937-changelog,
   #rvkernel-mi845-changelog,
   #rvkernel-alioth-changelog,
-  #axion-beryllium-changelog {
+  #axion-beryllium-changelog,
+  #horizon-beryllium-changelog {
     margin: 30px;
     padding: 20px;
     box-shadow: 5px 5px 0px var(--md-sys-color-primary);
@@ -154,7 +162,8 @@ a:hover {
   #rvkernel-mi8937-changelog h2,
   #rvkernel-mi845-changelog h2,
   #rvkernel-alioth-changelog h2,
-  #axion-beryllium-changelog h2 {
+  #axion-beryllium-changelog h2,
+  #horizon-beryllium-changelog h2 {
     font-size: 1.5rem;
   }
 }
