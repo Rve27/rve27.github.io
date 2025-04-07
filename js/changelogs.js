@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const changelogs = [
         { id: "rvkernel-mi8937-changelog", url: "https://raw.githubusercontent.com/Rv-Project/RvKernel-Changelogs/refs/heads/main/Mi8937.md" },
-        { id: "rvkernel-mi845-changelog", url: "https://raw.githubusercontent.com/Rv-Project/RvKernel-Changelogs/refs/heads/main/Mi845.md" },
+        { id: "rvkernel-beryllium-changelog", url: "https://raw.githubusercontent.com/Rv-Project/RvKernel-Changelogs/refs/heads/main/beryllium.md" },
         { id: "rvkernel-alioth-changelog", url: "https://raw.githubusercontent.com/Rv-Project/RvKernel-Changelogs/refs/heads/main/alioth.md" },
         { id: "axion-beryllium-changelog", url: "https://raw.githubusercontent.com/Rve27/beryllium/refs/heads/main/axion-changelogs.md" },
 	{ id: "horizon-beryllium-changelog", url: "https://raw.githubusercontent.com/Rve27/beryllium/refs/heads/main/horizon-changelogs.md" }
